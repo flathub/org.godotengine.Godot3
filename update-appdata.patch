@@ -1,7 +1,7 @@
 diff --git a/misc/dist/linux/org.godotengine.Godot.appdata.xml b/misc/dist/linux/org.godotengine.Godot.appdata.xml
 --- a/misc/dist/linux/org.godotengine.Godot.appdata.xml	2023-03-06 14:13:41.000000000 +0000
 +++ b/misc/dist/linux/org.godotengine.Godot.appdata.xml	2023-03-16 22:20:25.946962567 +0000
-@@ -1,36 +1,63 @@
+@@ -1,36 +1,64 @@
  <?xml version="1.0" encoding="UTF-8"?>
 -<!-- Copyright 2017-2022 Rémi Verschelde <remi@godotengine.org> -->
  <component type="desktop">
@@ -73,6 +73,7 @@ diff --git a/misc/dist/linux/org.godotengine.Godot.appdata.xml b/misc/dist/linux
 +  </screenshots>
 +  <content_rating type="oars-1.1" />
 +  <releases>
++    <release version="3.5.3" date="2023-09-25"/>
 +    <release version="3.5.2" date="2023-03-07"/>
 +    <release version="3.5.1" date="2022-09-28"/>
 +    <release version="3.5" date="2022-08-06"/>
