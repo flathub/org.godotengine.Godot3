@@ -70,8 +70,8 @@ modules:
 
     sources:
       - type: archive
-        sha256: 6069c72a5a06a63b3e9db430fbd53aea7b422d04ebd642561c21b5affadd2828
-        url: https://downloads.tuxfamily.org/godotengine/3.5.3/rc1/godot-3.5.3-rc1.tar.xz
+        sha256: 6703181e130dc48c5f5ba2c612b75e8a9e5859e4ac560b7751ee83ae3b543666
+        url: https://downloads.tuxfamily.org/godotengine/3.6/beta3/godot-3.6-beta3.tar.xz
 
       - type: script
         dest-filename: godot.sh
