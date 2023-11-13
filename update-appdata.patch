@@ -1,7 +1,7 @@
 diff --git a/misc/dist/linux/org.godotengine.Godot.appdata.xml b/misc/dist/linux/org.godotengine.Godot.appdata.xml
 --- a/misc/dist/linux/org.godotengine.Godot.appdata.xml	2023-03-06 14:13:41.000000000 +0000
 +++ b/misc/dist/linux/org.godotengine.Godot.appdata.xml	2023-03-16 22:20:25.946962567 +0000
-@@ -1,36 +1,69 @@
+@@ -1,36 +1,73 @@
  <?xml version="1.0" encoding="UTF-8"?>
 -<!-- Copyright 2017-2022 Rémi Verschelde <remi@godotengine.org> -->
  <component type="desktop">
@@ -26,6 +26,10 @@ diff --git a/misc/dist/linux/org.godotengine.Godot.appdata.xml b/misc/dist/linux
 -      license. No strings attached, no royalties, nothing. Your game is yours,
 -      down to the last line of engine code.
 -    </p>
++    <p>
++      <em>NOTE: This Flatpak is unofficial and not supported by Godot Engine developers.</em>
++      Find officially supported binaries on godotengine.org.
++    </p>
 +    <p>Godot is an advanced, feature-packed, multi-platform 2D and 3D open source game engine.</p>
 +    <p>Create games with ease, using Godot's unique approach to game development.</p>
 +    <ul>
