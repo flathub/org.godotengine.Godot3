@@ -48,8 +48,7 @@ Exec Flags: --host code --reuse-window {project} --goto {file}:{line}:{col}
 
 ## Limitations
 
-- No C#/Mono support
-  ([#8 issue in Godot 4 Flatpak repo](https://github.com/flathub/org.godotengine.Godot/issues/8)).
+- For C#/Mono support, install [org.godotengine.Godot3Sharp](https://flathub.org/apps/org.godotengine.Godot3Sharp) instead.
 
 ## Building from source
 
