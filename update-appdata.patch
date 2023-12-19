@@ -42,7 +42,7 @@ diff --git a/misc/dist/linux/org.godotengine.Godot.appdata.xml b/misc/dist/linux
 +    </ul>
 +    <p>Limitations of the Flatpak version:</p>
 +    <ul>
-+      <li>No C#/Mono support. See (links to Godot 4 repo): https://github.com/flathub/org.godotengine.Godot/issues/8</li>
++      <li>For C#/Mono support, install org.godotengine.Godot3Sharp instead: https://flathub.org/apps/org.godotengine.Godot3Sharp</li>
 +      <li>External script editors are supported, but you need to follow the steps described here: https://github.com/flathub/org.godotengine.Godot3#using-an-external-script-editor</li>
 +    </ul>
    </description>
