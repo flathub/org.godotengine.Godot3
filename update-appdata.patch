@@ -15,7 +15,7 @@ diff --git a/misc/dist/linux/org.godotengine.Godot.appdata.xml b/misc/dist/linux
 +  <name>Godot 3</name>
 +  <developer_name>The Godot Engine Community</developer_name>
 +  <summary>Godot game engine editor</summary>
-+  <launchable type="desktop-id">org.godotengine.Godot.desktop</launchable>
++  <launchable type="desktop-id">org.godotengine.Godot3.desktop</launchable>
    <description>
 -    <p>
 -      Godot is an advanced, feature-packed, multi-platform 2D and 3D game
