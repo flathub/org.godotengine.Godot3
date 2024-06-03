@@ -1,9 +1,13 @@
 app-id: org.godotengine.Godot3
-runtime: org.freedesktop.Platform
+runtime: org.freedesktop.Sdk
 runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
-sdk-extensions:
-  - org.freedesktop.Sdk.Extension.openjdk11
+add-extensions:
+  org.freedesktop.Sdk.Extension.openjdk17:
+    directory: jdk
+    version: '23.08'
+    no-autodownload: false
+    autodelete: false
 command: godot
 
 build-options:
@@ -48,10 +52,10 @@ finish-args:
 modules:
   - shared-modules/glu/glu-9.json
 
-  - name: openjdk
+  - name: jdk
     buildsystem: simple
     build-commands:
-      - /usr/lib/sdk/openjdk11/install.sh
+      - mkdir -p /app/jdk
 
   - name: scons
     buildsystem: simple
@@ -71,13 +75,13 @@ modules:
     sources:
       - type: archive
         sha256: 3cb48126b76858f40cf54bd345bb84dc1f49d9e6f8a4a7425ad86e805d39701d
-        url: https://downloads.tuxfamily.org/godotengine/3.5.3/godot-3.5.3-stable.tar.xz
+        url: https://github.com/godotengine/godot/releases/download/3.5.3-stable/godot-3.5.3-stable.tar.xz
 
       - type: script
         dest-filename: godot.sh
         commands:
           - export APPDATA="$XDG_DATA_HOME"
-          - export PATH="/app/jre/bin:$PATH"
+          - if [ -f /app/jdk/enable.sh ]; then source /app/jdk/enable.sh; fi
           - /app/bin/godot-bin "$@"
 
       - type: patch
