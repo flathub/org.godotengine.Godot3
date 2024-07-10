@@ -17,6 +17,9 @@ build-options:
         # Only enable link-time optimization when targeting x86_64
         # (causes issues on other architectures)
         SCONS_FLAGS_EXTRA: lto=full
+    aarch64:
+      env:
+        SCONS_FLAGS_EXTRA: arch=arm64
 
   env:
     # Will be appended to the version string displayed in the editor and command-line help
