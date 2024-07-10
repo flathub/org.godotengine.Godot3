@@ -1,7 +1,7 @@
 diff --git a/misc/dist/linux/org.godotengine.Godot.appdata.xml b/misc/dist/linux/org.godotengine.Godot.appdata.xml
 --- a/misc/dist/linux/org.godotengine.Godot.appdata.xml	2023-03-06 14:13:41.000000000 +0000
 +++ b/misc/dist/linux/org.godotengine.Godot.appdata.xml	2023-03-16 22:20:25.946962567 +0000
-@@ -1,36 +1,64 @@
+@@ -1,36 +1,66 @@
  <?xml version="1.0" encoding="UTF-8"?>
 -<!-- Copyright 2017-2022 Rémi Verschelde <remi@godotengine.org> -->
  <component type="desktop">
@@ -13,7 +13,9 @@ diff --git a/misc/dist/linux/org.godotengine.Godot.appdata.xml b/misc/dist/linux
 -  ​<launchable type="desktop-id">org.godotengine.Godot.desktop</launchable>
 +  <id>org.godotengine.Godot3</id>
 +  <name>Godot 3</name>
++  <developer_name>The Godot Engine Community</developer_name>
 +  <summary>Godot game engine editor</summary>
++  <launchable type="desktop-id">org.godotengine.Godot3.desktop</launchable>
    <description>
 -    <p>
 -      Godot is an advanced, feature-packed, multi-platform 2D and 3D game
@@ -73,7 +75,7 @@ diff --git a/misc/dist/linux/org.godotengine.Godot.appdata.xml b/misc/dist/linux
 +  </screenshots>
 +  <content_rating type="oars-1.1" />
 +  <releases>
-+    <release version="3.5.3-rc1" date="2023-09-07"/>
++    <release version="3.6-rc1" date="2024-07-04"/>
 +    <release version="3.5.2" date="2023-03-07"/>
 +    <release version="3.5.1" date="2022-09-28"/>
 +    <release version="3.5" date="2022-08-06"/>

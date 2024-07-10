@@ -13,6 +13,9 @@ build-options:
         # Only enable link-time optimization when targeting x86_64
         # (causes issues on other architectures)
         SCONS_FLAGS_EXTRA: lto=full
+    aarch64:
+      env:
+        SCONS_FLAGS_EXTRA: arch=arm64
 
   env:
     # Will be appended to the version string displayed in the editor and command-line help
@@ -70,8 +73,8 @@ modules:
 
     sources:
       - type: archive
-        sha256: 6069c72a5a06a63b3e9db430fbd53aea7b422d04ebd642561c21b5affadd2828
-        url: https://downloads.tuxfamily.org/godotengine/3.5.3/rc1/godot-3.5.3-rc1.tar.xz
+        sha256: a9a16a1b448a933d9cd8c5154037e1d2e6eb5203fbbfef842bf4fce22403dbfe
+        url: https://downloads.tuxfamily.org/godotengine/3.6/rc1/godot-3.6-rc1.tar.xz
 
       - type: script
         dest-filename: godot.sh
