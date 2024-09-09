@@ -1,7 +1,7 @@
 diff --git a/misc/dist/linux/org.godotengine.Godot.appdata.xml b/misc/dist/linux/org.godotengine.Godot.appdata.xml
 --- a/misc/dist/linux/org.godotengine.Godot.appdata.xml	2023-03-06 14:13:41.000000000 +0000
 +++ b/misc/dist/linux/org.godotengine.Godot.appdata.xml	2023-03-16 22:20:25.946962567 +0000
-@@ -1,36 +1,76 @@
+@@ -1,36 +1,77 @@
  <?xml version="1.0" encoding="UTF-8"?>
 -<!-- Copyright 2017-2022 Rémi Verschelde <remi@godotengine.org> -->
  <component type="desktop">
@@ -44,6 +44,7 @@ diff --git a/misc/dist/linux/org.godotengine.Godot.appdata.xml b/misc/dist/linux
 +    <ul>
 +      <li>For C#/Mono support, install org.godotengine.Godot3Sharp instead: https://flathub.org/apps/org.godotengine.Godot3Sharp</li>
 +      <li>External script editors are supported, but you need to follow the steps described here: https://github.com/flathub/org.godotengine.Godot3#using-an-external-script-editor</li>
++      <li>For projects using text-to-speech, make sure libspeechd is installed on your system, so that this Flatpak can access it.</li>
 +    </ul>
    </description>
 -  <screenshots>
