@@ -77,8 +77,8 @@ modules:
 
     sources:
       - type: archive
-        sha256: 5bed20a7056d4cc3cca34001752109809ad7ae200548e98c7bbc6afbad18eda7
-        url: https://github.com/godotengine/godot/releases/download/3.6-stable/godot-3.6-stable.tar.xz
+        sha256: 959b6044c07e1972159109ed99259a4cdd8ba0c7776bc1431f91c3d5889625c2
+        url: https://github.com/godotengine/godot/releases/download/3.6.3-stable/godot-3.6.3-stable.tar.xz
 
       - type: script
         dest-filename: godot.sh
